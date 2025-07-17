@@ -1,0 +1,38 @@
+.add-order {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #d3e0ea;
+}
+
+.add-order-title {
+  color: #4a90e2;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.order-form {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.order-form .form-control {
+  border-color: #4a90e2;
+}
+
+.order-form .btn-primary {
+  background-color: #4a90e2;
+  border-color: #4a90e2;
+}
+
+.order-form .btn-primary:hover {
+  background-color: #357abd;
+  border-color: #357abd;
+}
+
+@media (max-width: 768px) {
+  .order-form .col-md-6,
+  .order-form .col-md-4 {
+    flex: 0 0 100%;
+  }
+}
